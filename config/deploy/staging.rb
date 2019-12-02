@@ -59,9 +59,3 @@
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #   }
-
-set :stage, :production
-set :rails_env, :production
-set :deploy_to, "/var/www/mobileshop_server"
-set :branch, :config_deploy
-server "ec2-18-218-131-50.us-east-2.compute.amazonaws.com", user: "dodat", roles: %w(web app db)

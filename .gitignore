@@ -34,3 +34,15 @@
 
 # Ignore application configuration
 /config/application.yml
+
+# Other
+public/*
+.env
+coverage/
+.rspec
+
+config/settings.local.yml
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
