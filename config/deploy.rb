@@ -1,6 +1,6 @@
 # config valid only for current version of Capistrano
 set :application, "mobileshop_server"
-set :repo_url, "git@github.com:dodat1905/mobileshop.git"
+set :repo_url, "git@github.com:dodat1905/mobileshop_server.git"
 set :branch, 'develop'
 set :pty, true
 set :linked_files, %w(config/database.yml config/application.yml)
