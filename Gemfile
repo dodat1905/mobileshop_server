@@ -65,7 +65,6 @@ group :development do
   gem "spring"
   gem "listen", ">= 3.0.5", "< 3.2"
   gem "spring-watcher-listen", "~> 2.0.0"
-  gem "web-console", ">= 3.3.0"
   gem "capistrano"
   gem "capistrano3-puma"
   gem "capistrano-rails", require: false
